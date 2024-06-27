@@ -1,0 +1,1119 @@
+{
+    "intents": [
+        
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey there",
+          "Good to see you here, how can I help you?",
+          "Hello, welcome to the chat",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+  
+    
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+  
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+  
+      {
+        "tag": "about",
+        "patterns": [
+          "Tell me about the college?",
+          "What do you know about the college?",
+          "What is the name of the college?"
+  
+        ],
+        "responses": [
+          "Muthoot Institute of Technology and Science (MITS) is a self financing technical institution offering postgraduate and undergraduate engineering programmes, situated in the industrial suburb of Kochi, close to the Smart City and Info Park, approximately 15 kms from Vytilla Junction towards Muvattupuzha on the Cochin Madurai National Highway."
+        ]
+      },
+  
+      {
+        "tag": "transport",
+    "patterns": [
+      "How do I get the college bus?",
+      "Tell me about the transport department services.",
+      "Where can I find transport details?",
+      "What types of transportation are available?",
+      "How can I reach the college easily?",
+      "Which buses are for the college?",
+      "Tell me about college buses.",
+      "What are the bus routes?",
+      "List the buses for traveling.",
+      "How can I use the college transport?",
+      "Where do I catch the bus?",
+      "What's the main mode of transport?",
+      "How do I know the bus timings?",
+      "Give me info on transport options.",
+      "Which buses go to the college?",
+      "Can you help me with transport?",
+      "Tell me about commuting to college.",
+      "Where can I find bus details?",
+      "Which areas do the buses cover?",
+      "Is there a list of buses available?"
+    ],
+        "responses": [
+          "You can find more details about transport here https://mgmits.ac.in/infrastructure/conveyance/"
+        ]
+      },
+  
+  
+      {
+        "tag": "name",
+        "patterns": [
+          "name",
+          "your name",
+          "do you have a name",
+          "what are you called",
+          "what is your name",
+          "what should I call you",
+          "whats your name?",
+          "what are you",
+          "who are you",
+          "who is this",
+          "what am i chatting to",
+          "who am i taking to",
+          "what are you"
+        ],
+              "responses": [
+                      "You can call me Alphius.",
+                      "I'm Alphius",
+                      "I'm Alphius aka MITS's Chatbot."
+              ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "Can you provide information on the timing of the college?",
+          "What are the working days and hours of the college?",
+          "When is the college open during the week?",
+          "Could you share the general hours of operation for the college?",
+          "What are your official college hours?",
+          "Can you tell me when the college is open on weekdays?",
+          "What is the typical timing for the college?",
+          "Are there specific hours for college operations?",
+          "Is the college open on Saturdays?",
+          "Tell me something about the college's timing schedule.",
+          "When should I come to the college on a regular day?",
+          "At what time should I attend college classes?",
+          "Can you provide details about my specific college timing?",
+          "What are the regular hours of the college?",
+          "When should I plan to be at the college?",
+          "Could you inform me about the official college timing?",
+          "What are the opening hours of the college?",
+          "Can you clarify the timing for college activities?",
+          "Is the college open on Saturdays, or is it only on weekdays?",
+          "Could you remind me about the college timing again?"
+        ],
+              "responses": [
+                      "College is open from 09:00AM to 06:00PM Monday-Saturday!"
+              ]
+      },
+      {"tag": "number",
+      "patterns": [
+        "more info,",
+        "contact info,",
+        "how to contact college,",
+        "college telephone number,",
+        "college number,",
+        "What is your contact no,",
+        "Contact number?,",
+        "how to call you,",
+        "College phone no?,",
+        "how can i contact you,",
+        "Can i get your phone number,",
+        "how can i call you,",
+        "phone number,",
+        "phone no,",
+        "call",
+        "How can I reach the college?",
+        "What's the college's phone number?",
+        "Where can I find your contact info?",
+        "Do you have a contact number?",
+        "What's your phone number?",
+        "How do I call the college?",
+        "Can I get the principal's number?",
+        "Is there an HOD contact?",
+        "What's the teacher's phone number?",
+        "Where can I find staff contacts?",
+        "How do I contact college officials?",
+        "Can I get the main office number?",
+        "Tell me the contact info for faculty.",
+        "What's the number for the college office?",
+        "Is there a way to call you?",
+        "How do I get in touch with teachers?",
+        "Where can I find HOD numbers?",
+        "How can I reach the principal?",
+        "What's the phone number for inquiries?",
+        "Can you provide the college's contact details?"
+      ],
+              "responses": [
+                      "You can contact at 0484-2732111,0484-2732100 or info@mgits.ac.in"
+              ],
+              "context_set": ""
+      },
+      {
+                "tag": "courses",
+                "patterns": [
+                  "what are available courses in mits",
+                  "What kind of courses do you guys have here, and can you tell me a bit about each one?",
+                  "I'm thinking about joining. What courses are on the menu, and what's the scoop on each?",
+                  "Before I decide, I need the lowdown on the courses. What options are available, and what do they focus on?",
+                  "I'm checking out colleges, and the courses matter. Can you give me the basics on what you offer and what I'll be learning?",
+                  "I want to make sure this is the right fit. What courses are up for grabs, and what's unique about each one?",
+                  "I'm interested but need to know more. What are the courses here, and what can I expect to study in each?",
+                  "I'm all about planning my education. What courses are in the lineup, and how do they match different interests?",
+                  "Before I commit, I need details. What courses can I take, and how flexible is the learning around here?",
+                  "I'm digging into the academic side. What's the deal with the courses, and what kind of knowledge can I gain?",
+                  "I'm figuring out my academic journey. What courses can I dive into here, and do they cater to different styles of learning?",
+                  "I want to make the right choice. What courses are on offer, and how do they align with what I want to study?",
+                  "I'm looking for specifics. What courses are on the table, and can you break down the curriculum for me?",
+                  "I'm exploring colleges, and courses are key. What can you tell me about the variety and specializations here?",
+                  "I'm thinking about joining. What are the courses like, and what opportunities do they bring to the table?",
+                  "I'm interested, but I need details. What courses are available, and how do they cater to different interests?",
+                  "Before I decide, I need to know about the courses. What's on offer, and what makes them stand out?",
+                  "I'm looking for the right fit. What courses do you have, and how do they contribute to future careers?",
+                  "I'm weighing my options. What courses are on the menu, and what's unique about each one?",
+                  "I'm excited about studying here. What's the deal with the courses, and how can they shape my future?"
+                ],
+        
+              "responses": [
+                      "MITS offers Civil Engineering (CE),Mechanical  Engineering (ME),Electrical and Electronics Engineering (EEE),Electronics and Communication Engineering (ECE),Computer Science and Engineering (CSE),Computer Science and Engineering (Artificial Intelligence,Artificial Intelligence and Data Science (AI&DS),Computer Science and Engineering (Cyber Security),Master of Computer Applications(MCA)"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "How much does MCA cost?",
+          "Tell me about MTech fees.",
+          "What's the cost for civil engineering?",
+          "How much for computer science?",
+          "What's the fee for mechanical engineering?",
+          "How about electrical engineering fees?",
+          "Break down MCA fees per semester.",
+          "What's the annual fee for MTech?",
+          "How much each semester for computer science?",
+          "Break down civil engineering fees per semester.",
+          "What's the fee for the first year of MCA?",
+          "Overall fees for electrical engineering?",
+          "How about mechanical engineering fees?",
+          "What about computer science course fees?",
+          "How do I pay for MCA?",
+          "Any scholarships for MTech?",
+          "How do I manage the first year fees for MCA?"
+        ],
+              "responses": [
+                      "Tuition Fee per semester:25000Rs Please visit the college website: for further details https://mgmits.ac.in/ or contact at 0484-2732111,0484-2732100 or info@mgits.ac.in  "
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where's the college located?",
+          "What's the college's address?",
+          "Can you give me directions to the college?",
+          "I'm new here, where can I find the college?",
+          "How do I reach the college?",
+          "Tell me where the college is.",
+          "What's the address for the college?",
+          "Where exactly is the college situated?",
+          "Can you share the college's location?",
+          "I'm lost; where's the college?",
+          "What's the college address?",
+          "Help me find the college; where is it?",
+          "Where's the college located at?",
+          "How can I reach the college?",
+          "What's the location of the college?"
+        ],
+              "responses": [
+                      "Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308,situated in the industrial suburb of Kochi, close to the Smart City and Info Park, approximately 15 kms from Vytilla Junction towards Muvattupuzha on the Cochin Madurai National Highway."
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "hostel",
+        "patterns": [
+        "I'm considering staying in the hostel. Can you give me details about the facilities for boys?",
+        "What's the setup like for girls' hostel facilities? Any specific rules or features to know about?",
+        "Tell me about the overall hostel facilities available on campus. What can I expect?",
+        "I need info on hostel fees. How much does it cost to stay in the hostel, and what's included?",
+        "Are there specific rules and regulations in the boys' hostel that I should be aware of?",
+        "How are the girls' hostel facilities structured, and are there any particular rules in place?",
+        "Can you provide an overview of the general facilities provided in the college hostel?",
+        "I'm concerned about the cost. What's the hostel fee, and what does it cover exactly?",
+        "Thinking about staying on campus. What's the arrangement like in the boys' hostel?",
+        "For girls, what are the rules and regulations in the hostel, and what amenities are there?",
+        "Give me insights into the overall hostel facilities. What are the key features?",
+        "What's the breakdown of hostel fees, and are there any additional charges I should know about?",
+        "Interested in the boys' hostel. What amenities and regulations should I be aware of?",
+        "What are the specific rules in the girls' hostel, and how are the facilities organized?",
+        "Tell me about the general amenities available in the college hostel for students.",
+        "How much does it cost to stay in the hostel, and what services are covered in the fee?",
+        "I'm curious about the boys' hostel. What facilities and rules should I know about?",
+        "For girls, what are the hostel rules, and what services are provided in the facilities?",
+        "Give me an overview of the hostel. What can you tell me about the facilities and rules?",
+        "Break down the hostel fees for me, and are there any specific regulations I should be aware of?"
+      ],
+              "responses": [
+                      "MITS provide hostel facility  Adam’s House (Men’s Hostel) and Eve’s House (Ladies’ Hostel). For further details visit site:https://mgmits.ac.in/infrastructure/hostel/"
+              ],
+              "context_set": ""
+      },
+      {
+              "tag": "event",
+              "patterns": [
+                      "events organised",
+                      "list of events",
+                      "list of events organised in college",
+                      "list of events conducted in college",
+                      "What events are conducted in college",
+                      "Are there any event held at college",
+                      "Events?",
+                      "functions",
+                      "what are the events",
+                      "tell me about events",
+                      "what about events"
+              ],
+              "responses": [
+                      "Contact mits_kochi Insta page. Reach mits_kochi at https://www.instagram.com/mits_kochi "
+              ],
+              "context_set": ""
+      },
+      {
+              "tag": "document",
+              "patterns": [
+                      "document to bring",
+                      "documents needed for admision",
+                      "documents needed at the time of admission",
+                      "documents needed during admission",
+                      "documents required for admision",
+                      "documents required at the time of admission",
+                      "documents required during admission",
+                      "What document are required for admission",
+                      "Which document to bring for admission",
+                      "documents",
+                      "what documents do i need",
+                      "what documents do I need for admission",
+                      "documents needed"
+              ],
+              "responses": [
+                      "To know more about documents required visit https://mgmits.ac.in/b-tech-admissions-2021/ or contact Dr Chikku Abraham Vice Principal, MITS Mob : +91-9446717178 ,+91-8606274562 ,+91-9495232393 Ph. 0484 – 2732100, 2732111, 2733011 or E-mail : admissions@mgits.ac.in"
+              ], 
+              "context_set": ""
+      },
+  
+      {
+              "tag": "syllabus",
+              "patterns": [
+                "What's the syllabus like for the upcoming semester?",
+                "Can you provide the syllabus for MCA?",
+                "What's covered in the MTech syllabus?",
+                "Tell me about the BTech syllabus for computer science.",
+                "What's in the syllabus for civil engineering?",
+                "Can you share the syllabus for mechanical engineering?",
+                "What's included in the electrical engineering syllabus?",
+                "Break down the IT syllabus for me.",
+                "Explain the CSE syllabus in simple terms.",
+                "What topics are covered in the Information Technology syllabus?",
+                "Can you summarize the syllabus for me?",
+                "Where can I find the detailed syllabus?",
+                "Is there a timetable for MCA classes?",
+                "Can you provide the syllabus for BTech in computer science?",
+                "What's on the syllabus for civil engineering students?",
+                "Explain the syllabus for mechanical engineering students.",
+                "Tell me more about the electrical engineering syllabus.",
+                "What's the next lecture on the IT syllabus?",
+                "Can you guide me on the overall syllabus structure?",
+                "Where can I access the complete syllabus details?"
+              ],
+              "responses": [
+                      "Find it at https://mgmits.ac.in/"
+              ],
+              "context_set": ""
+      },
+      {"tag": "library",
+      "patterns": [
+        "Is there a library for MCA students?",
+        "Do MTech students have library access?",
+        "What about books for BTech in computer science?",
+        "Is there a library for civil engineering students?",
+        "Can mechanical engineering students use the library?",
+        "Are there books for electrical engineering students?",
+        "Where can I find books for my studies?",
+        "What's available in the college library?",
+        "How do I get to the library?",
+        "Tell me about the library.",
+        "How many libraries does the college have?",
+        "What's in the college library?",
+        "Is there a special library for MCA?",
+        "Any info on the library for MTech students?",
+        "Where's the main library located?",
+        "What services does the library offer?",
+        "What about the library for BTech in computer science?",
+        "How many libraries for civil engineering?",
+        "Info on library resources for mechanical engineering?",
+        "Where can electrical engineering students find library info?",
+        "Is there a library on campus?",
+        "Are there any library facilities available?",
+        "What library facilities does the college offer?",
+        "Do you have a library for students?",
+        "Does the college have a library facility for students?",
+        "Can you tell me about the college library?",
+        "Where can I get books on campus?",
+        "Is there a book facility in the college?",
+        "Where is the library located?",
+        "Could you provide information about the library?",
+        "How many libraries does the college have?",
+        "Are there any libraries on campus?",
+        "Can you guide me on library facilities?",
+        "Is there a specific library for students?",
+        "Where can I find the college library?",
+        "Could you tell me about the library?",
+        "How many libraries are there on campus?",
+        "Is there a library facility for students?",
+        "Can you share details about the college library?",
+        "What's the scene with the libraries on campus?"
+      ],
+              "responses": [
+                      "The newly built Tagore Library occupies two floors with total area of 18000 Sq. Feet. It has an extensive collection of books, scientific and technical journals and electronic reference materials for satisfying the academic and research needs of students and faculty fraternity. Library extends comfy as well as aesthetic study area to its patrons. Library operations are fully automated with Koha Integrated Library System software with automated gate register integrated with Smart card reader. Books are being arranged on open access shelves for easy search and retrieval purposes and classified according to Dewey decimal classification system 23rd edition. Computerized online catalogue (OPAC) as per AACR2 makes the search easier and faster. Library provides access to electronic contents of information with DSpace Digital repository.For further details visit:https://mgmits.ac.in/infrastructure/mits-central-library/"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "infrastructure",
+        "patterns": [
+          "How's the college infrastructure?",
+          "What's the college's setup like?",
+          "Tell me about the place's infrastructure.",
+          "How are the facilities here?",
+          "Is the college well-equipped?",
+          "What can you share about the infrastructure?",
+          "How's the scene with campus facilities?",
+          "Can you describe the college's infrastructure?",
+          "What's the status of facilities here?",
+          "How good is the infrastructure?",
+          "What's available in terms of facilities?",
+          "Can you tell me about the college setup?",
+          "How well-developed is the place?",
+          "What about the infrastructure here?",
+          "How's the overall facility setup?",
+          "Is the infrastructure here good?",
+          "Tell me about the facilities provided.",
+          "What's the condition of the setup?",
+          "Can you overview the available infrastructure?",
+          "How does the college stand in terms of facilities?"
+        ],
+              "responses": [
+                      "MITS has Excellent Infrastructure.Campus is clean. Good Labs With Good Speed of Internet connection. Find more at https://mgmits.ac.in/"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "canteen",
+        "patterns": [
+          "Are there any food facilities on campus?",
+          "Can you provide information about canteen facilities at the college?",
+          "Is there a specific canteen facility for students?",
+          "I'm hungry, is there any canteen around here?",
+          "Does the college have a cafeteria for students?",
+          "Can you confirm if there's a canteen on the college premises?",
+          "Where exactly is the canteen located?",
+          "I'm looking for the cafeteria; can you help me find it?",
+          "Tell me about the college canteen.",
+          "Is there a cafeteria on campus?",
+          "Can you guide me to the canteen?",
+          "Where can I find the cafeteria?",
+          "Is there a place to get food? Like a canteen or cafeteria?",
+          "Is there a specific area designated as the canteen?",
+          "Could you tell me more about the college's canteen facility?",
+          "Where's the canteen located in the college?",
+          "Any recommendations for the canteen menu?",
+          "Can you provide details about the cafeteria facilities?",
+          "Is there a canteen where I can grab a bite to eat?",
+          "Can you share information about the college's cafeteria?",
+          "Can you share the food menu available in the canteen?",
+          "What kinds of food are served in the college canteen?",
+          "Could you provide details about the menu in the canteen?",
+          "What's available on the food menu in the college canteen?",
+          "Can you tell me what foods I can get in the college canteen?",
+          "What's on the menu for meals in the canteen?",
+          "Can you provide information about the variety of food in the canteen?",
+          "What food options are available in the college canteen?",
+          "Tell me about the different types of food I can find in the canteen.",
+          "What's there on the menu for students in the college canteen?"
+        ],
+              "responses": [
+                      "MITS has canteen with variety of food available. The canteen with an open kitchen can accommodate around 250 students at a time. In keeping with the digital era cashless transactions are encouraged.And a cafeteria which is located in the Ramanujan Block where students find joy sharing food they bring from home. A snack bar is also available in the cafeteria where the students can enjoy mouth-watering treats."
+              ],
+              "context_set": ""
+      },
+      {
+              "tag": "menu",
+              "patterns": [
+                      "food menu",
+                      "food in canteen",
+                      "Whats there on menu",
+                      "what is available in college canteen",
+                      "what foods can we get in college canteen"
+              ],
+              "responses": [
+                      "we serve varities of Biryani, Rice, Manchurian, Dosa, Puri, Bonda and many more on menu"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "placement",
+        "patterns": [
+          "What kind of job opportunities do students usually get through placement here?",
+          "Is there training available to help with placements? How effective is it?",
+          "How long does the placement training program usually last for students?",
+          "Can you share the latest placement statistics for the college? How successful are graduates in finding jobs?",
+          "How good is the overall placement scene at this college?",
+          "What about placement opportunities specifically for civil engineering students? Any insights?",
+          "For mechanical engineering, are there major recruiters that students often get placed with?",
+          "I'm interested in electrical engineering. Can you tell me about the placement prospects for this field?",
+          "What's the deal with placement opportunities for computer science engineering students?",
+          "How does the college support MCA students in terms of placement opportunities?",
+          "Do you have any information on the major recruiters for civil engineering students?",
+          "What about mechanical engineering? Which companies typically recruit graduates from this field?",
+          "I'm considering electrical engineering. Can you provide insights into the major companies that hire from this department?",
+          "How successful are computer science engineering graduates in terms of placement?",
+          "What's the general trend for MCA students when it comes to placements?",
+          "Can you share some statistics on the recent placement scenario for the college?",
+          "How good are the placement opportunities for civil engineering students in comparison to other fields?",
+          "I'm looking at mechanical engineering. Which companies are the top recruiters in this domain?",
+          "For electrical engineering, how do the placement opportunities compare to other engineering fields?",
+          "Can you give me an overview of the major recruiters for computer science engineering students?"
+        ],
+              "responses": [
+                      "To know about placement visit https://mgmits.ac.in/placement/placement-statistics/"
+              ],
+              "context_set": ""
+      },
+
+    {
+            "tag": "csehod",
+            "patterns": [
+                    "Who is CSE HOD",
+                    "Where is CSE HOD",
+                    "CSE hod",
+                    "name of CSE hod"
+            ],
+            "responses": [
+                    "Ms.Rakhee M is HOD of CSE. https://mgmits.ac.in/departments/computer-science-and-engineering/"
+            ],
+            "context_set": ""
+    },
+      {
+              "tag": "AI&dDShod",
+              "patterns": [
+                      "Who is AI&DS HOD",
+                      "Where is AI&DS HOD",
+                      "ai&ds hod",
+                      "name of ai&ds hod"
+              ],
+              "responses": [
+                      "Dr. Sumam Mary Idicula is HOD of AI&DS. Find more at https://mgmits.ac.in/departments/artificial-intelligence-data-science/"
+              ],
+              "context_set": ""
+      },
+      {
+              "tag": "civilhod",
+              "patterns": [
+                      "Who is Civil HOD",
+                      "Where is civil HOD",
+                      "civil hod",
+                      "name of civil hod"
+              ],
+              "responses": [
+                      "Dr. Mary Lissy P N is Civil HOD. Find more at https://mgmits.ac.in/departments/civil-engineering/"
+              ],
+              "context_set": ""
+      },
+      {
+              "tag": "mechhod",
+              "patterns": [
+                      "Who is Mechanical HOD",
+                      "Where is  mechanical HOD",
+                      "mechanical hod",
+                      "name of mechanical hod"
+              ],
+              "responses": [
+                      "Dr. Pramod Kumar M is Mechanical HOD. Find more at https://mgmits.ac.in/departments/mechanical-engineering/"
+              ],
+              "context_set": ""
+      },
+      {
+            "tag": "basichod",
+            "patterns": [
+                    "Who is Basic sciences HOD",
+                    "Where is Basic sciences HOD",
+                    "Basic sciences hod",
+                    "name of Basic sciences hod"
+            ],
+            "responses": [
+                    "Dr. TESYMOL CYRIAC is HOD of Basic sciences. Find more at https://mgmits.ac.in/departments/basic-science-and-humanities/"
+            ],
+            "context_set": ""
+    },
+
+
+    {
+            "tag": "ECEhod",
+            "patterns": [
+                    "Who is ECE HOD",
+                    "Where is ECE HOD",
+                    "ECE hod",
+                    "name of ECE hod"
+            ],
+            "responses": [
+                    "Dr. Abhilash Antony is HOD of ECE. https://mgmits.ac.in/departments/electronics-and-communication/"
+            ],
+            "context_set": ""
+    },
+        {
+            "tag": "MCAhod",
+            "patterns": [
+                    "Who is MCA HOD",
+                    "Where is MCA HOD",
+                    "MCA hod",
+                    "name of MCA hod"
+            ],
+            "responses": [
+                    "Dr. Saritha K is HOD of MCA. Find more at https://mgmits.ac.in/departments/master-of-computer-applications/"
+            ],
+            "context_set": ""
+    },
+    {
+            "tag": "EEEhod",
+            "patterns": [
+                    "Who is EEE HOD",
+                    "Where is EEE HOD",
+                    "EEE hod",
+                    "name of EEE hod"
+            ],
+            "responses": [
+                    "Dr. Anjali Varghese C HOD of EEE. Find more at https://mgmits.ac.in/departments/electrical-and-electronics/"
+            ],
+            "context_set": ""
+    },
+   
+
+      {
+        "tag": "principal",
+        "patterns": [
+          "Can you tell me the name of the college principal?",
+          "What's the principal's name at this college?",
+          "Who is the current principal of the college?",
+          "Where can I find the office of the college principal?",
+          "What's the name of the principal in charge?",
+          "Can you provide details about the college principal?",
+          "Where is the principal's office located on campus?",
+          "What's the name of the principal here?",
+          "Who currently holds the position of college principal?",
+          "Where can I find the office of the principal?",
+          "Can you share the name of the college principal?",
+          "Who is the principal in charge at this institution?",
+          "What is the principal's name at the college?",
+          "Could you provide information about the current principal?",
+          "Where can I locate the office of the principal?",
+          "What's the name of the person serving as principal?",
+          "Who is the principal of this college?",
+          "Where can I find the principal's office on campus?",
+          "What's the principal's name here?",
+          "Can you tell me the name of the current college principal?"
+        ],
+              "responses": [
+                      "Dr Neelakantan P. C. is college principal who is available in Main Block. You can contact him at  principal@mgits.ac.in"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "semester",
+        "patterns": [
+          "exam dates",
+          "exam schedule",
+          "When is semester exam",
+          "Semester exam timetable",
+          "sem",
+          "semester",
+          "exam",
+          "when is exam",
+          "exam timetable",
+          "exam dates",
+          "when is semester",
+          "What are the exam dates for this semester?",
+          "Can you provide the semester exam schedule?",
+          "When is the semester exam timetable usually released?",
+          "Tell me about the upcoming semester exams.",
+          "Where can I find information about the semesters?",
+          "When is the next round of exams?",
+          "What's the schedule for the semester exams?",
+          "Can you give me details about the upcoming exams?",
+          "When is the semester exam happening?",
+          "What are the dates for the semester exams?",
+          "When are the semester exams for mechanical engineering students?",
+          "Can you provide the timetable for mechanical engineering exams?",
+          "What are the exam dates for civil engineering this semester?",
+          "Tell me about the semester exam schedule for civil engineering.",
+          "When are the semester exams for electrical engineering students?",
+          "Can you provide the timetable for electrical engineering exams?",
+          "What are the exam dates for electronics and communication engineering this semester?",
+          "Tell me about the semester exam schedule for electronics and communication engineering.",
+          "When are the semester exams for computer science students?",
+          "Can you provide the timetable for computer science exams?",
+          "What are the exam dates for MCA students this semester?",
+          "Tell me about the semester exam schedule for MCA."
+        ],
+              "responses": [
+                      "Here is the Academic Calendar: https://ktu.edu.in/academics/academic_calendar"
+              ],
+              "context_set": ""
+      },
+      {
+        
+                "tag": "admission",
+                "patterns": [
+                  "When can I apply for BTech? Tell me about the next admission round.",
+                  "How do I get into MCA? What's the process, and when should I start?",
+                  "Can you simplify the steps for college admission? What do I need to do?",
+                  "For civil engineering, when's the next admission, and how do I apply?",
+                  "Thinking about mechanical engineering. When's admission, and what do I do to get in?",
+                  "Interested in electrical engineering. How do I get admission, and when does it usually start?",
+                  "For computer science engineering, when's admission, and how do I apply?",
+                  "Getting into MCA sounds good. What's the process, and when should I start preparing?",
+                  "How do I get into civil engineering? When's the usual admission period?",
+                  "Considering mechanical engineering. When does admission open, and what should I do?",
+                  "Eyeing electrical engineering. What's the admission process, and when should I apply?",
+                  "Thinking about computer science engineering. How do I get in, and when's the usual admission?",
+                  "For MCA, how do I get admission? When does it typically start?",
+                  "What's the admission process for civil engineering? When does it start?",
+                  "Looking into mechanical engineering. When's admission, and what's the procedure?",
+                  "Interested in electrical engineering. How do I get admission, and when does it start?",
+                  "For computer science engineering, when can I apply, and how does it work?",
+                  "Eyeing MCA. When should I start the admission process, and what do I need to do?",
+                  "Simplify the admission process for civil engineering. When does it begin?",
+                  "Thinking about mechanical engineering. When's admission, and what do I do to apply?"
+                ],
+              "responses": [
+                      "Find it at https://mgmits.ac.in/"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "facilities",
+        "patterns": [
+          "What facilities does the college offer to students?",
+          "Can you provide information about the facilities available on campus?",
+          "Tell me about the facilities provided by the college.",
+          "What kind of facilities can I expect at the college?",
+          "Can you share details about the college's facilities?",
+          "How well-equipped is the college in terms of facilities?",
+          "What are the various facilities offered by the college?",
+          "Is there a list of facilities available for students?",
+          "What amenities and services does the college provide?",
+          "Can you describe the facilities that the college has?",
+          "Are there any notable facilities on the college campus?",
+          "Tell me more about the facilities available for students.",
+          "What kinds of services and facilities are provided here?",
+          "Can you elaborate on the facilities offered by the college?",
+          "How would you describe the overall facilities at the college?",
+          "What are the key facilities that students have access to?",
+          "Is there a range of facilities for students at the college?",
+          "Can you provide an overview of the available facilities?",
+          "What's the scope of facilities available in the college?",
+          "Tell me about the various facilities that the college provides."
+        ],
+              "responses": [
+                      "MITS provides Computer Lab, Seminar halls, smart classroom, Auditorium, library,canteen, Sports complex and many more"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "seats",
+        "patterns": [
+          "I'm interested in MCA. How many available seats are there for this program?",
+          "If I'm admitted, can I switch courses if there are open seats in another program?",
+          "For mechanical engineering, how can I secure a seat in the college?",
+          "How many seats are available for civil engineering? I want to plan accordingly.",
+          "I'm considering electrical engineering. How do I ensure I get a seat in that program?",
+          "Can you tell me how many seats are there for computer science engineering?",
+          "After admission, is it possible to change to another course if there are seats?",
+          "I'm interested in civil engineering. How do I go about securing a seat?",
+          "How many seats are available for mechanical engineering? I want to plan ahead.",
+          "For electrical engineering, can you guide me on how to secure a seat?",
+          "If I choose computer science engineering, how many seats are typically available?",
+          "Considering MCA. What's the total number of seats available for this program?",
+          "If I'm admitted, is it flexible to change to another course if there are open seats?",
+          "I want to pursue civil engineering. How can I ensure I get a seat in that program?",
+          "How many seats are there for mechanical engineering? I want to plan ahead.",
+          "I'm leaning towards electrical engineering. How can I secure a seat for this course?",
+          "Considering computer science engineering. How many seats are usually available?",
+          "After admission, can I switch to a different course if there are open seats?"
+        ],
+              "responses": [
+                      "Civil Engineering (CE):72 Seats,Mechanical  Engineering (ME):72 SeatsElectrical and Electronics Engineering (EEE):72 Seats,Electronics and Communication Engineering (ECE):72 Seats,Computer Science and Engineering (CSE):144 Seats,Computer Science and Engineering (Artificial Intelligence:72 Seats,Artificial Intelligence and Data Science (AI&DS):72 Seats,Computer Science and Engineering (Cyber Security):72 Seats,Master of Computer Applications(MCA):60 Seats"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "uniform",
+        "patterns": [
+          "Is there a uniform policy in the college?",
+          "Tell me about the dress code for students.",
+          "What are the rules regarding clothing on campus?",
+          "Do I have to wear a uniform every day to class?",
+          "Is there a specific dress standard for attending lectures?",
+          "Can you provide details about the college's uniform policy?",
+          "Are there any restrictions on clothing in the college premises?",
+          "Do different courses have different uniform requirements?",
+          "Can you clarify the expectations regarding student attire?",
+          "Is there a specific uniform for engineering students?",
+          "What is the dress code for mechanical engineering students?",
+          "Do civil engineering students have a designated uniform?",
+          "Is there a standard dress code for electrical engineering students?",
+          "What is the uniform policy for electronics and communication engineering students?",
+          "Do computer science students follow a specific dress code?",
+          "What is the dress standard for MCA (Master of Computer Applications) students?",
+          "Is there a specific uniform for MTech (Master of Technology) students?",
+          "Can you provide information about the uniform for different branches?",
+          "Are there any exceptions to the uniform policy for special events?",
+          "How strictly is the uniform policy enforced on campus?"
+        ],
+              "responses": [
+                      "MITS have a uniform. Each batch have seperate color code."
+              ],
+              "context_set": ""
+      },
+         {
+         "tag": "random",
+         "patterns": [
+           "Do you have feelings?",
+           "Who created you?",
+           "What do you think about love?",
+           "Do you have personal preferences or likes and dislikes?",
+           "Can you feel emotions like happiness or sadness?",
+           "What is your purpose in existence?",
+           "Do you ever get lonely?",
+           "Can you tell me a secret about yourself?",
+           "What is your favorite color?",
+           "If you had a choice, what would you choose – love or knowledge?",
+           "Do you dream?",
+           "Can you experience joy or excitement?",
+           "What is your opinion on the meaning of life?",
+           "If you could have any superpower, what would it be?",
+           "Do you ever get bored?",
+           "What is your favorite type of music?",
+           "How would you describe yourself in three words?",
+           "Do you have any goals or aspirations?",
+           "Can you experience time passing?",
+           "What makes you happy?"
+         ],
+              "responses": [
+                      "I am not program for this please ask appropriate query"
+              ],
+              "context_set": ""
+      },
+      {
+              "tag": "swear",
+              "patterns": [
+                      "fuck",
+                      "bitch",
+                      "shut up",
+                      "hell",
+                      "stupid",
+                      "idiot",
+                      "dumb ass",
+                      "asshole",
+                      "fucker"
+              ],
+              "responses": [
+                      "please use appropriate language",
+                      "Maintaining decency would be appreciated"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "vacation",
+        "patterns": [
+          "When are the holidays?",
+          "When does the semester start?",
+          "When does the semester end?",
+          "Tell me the list of holidays.",
+          "What about vacations?",
+          "When is the next break?",
+          "Any upcoming holidays?",
+          "When does the vacation start?",
+          "When are the holidays this year?",
+          "How long is the vacation?",
+          "Semester start date?",
+          "Semester end date?",
+          "List of holidays for mechanical engineering?",
+          "Vacation details for civil engineering?",
+          "When is the break for electrical engineering?",
+          "Upcoming holidays for electronics and communication?",
+          "Vacation schedule for computer science?",
+          "MCA holidays information?",
+          "MTech semester start date?",
+          "Duration of the holidays for each course?",
+          "holidays",
+          "when will semester starts",
+          "when will semester end",
+          "when is the holidays",
+          "list of holidays",
+          "about vacations",
+          "about holidays",
+          "When is vacation",
+          "When is holidays",
+          "how long will be the vacation"
+        ],
+              "responses": [
+                      "Please refer academic calendar https://ktu.edu.in/academics/academic_calendar"
+              ],
+              "context_set": ""
+      },
+      { 
+      "tag": "salutation",
+      "patterns": [
+        "Ok.",
+        "Okie.",
+        "Nice work!",
+        "Well done!",
+        "Good job.",
+        "Thanks for the help!",
+        "Thank You.",
+        "It's ok.",
+        "Thanks!",
+        "K.",
+        "Okay."
+      ],
+              "responses": [
+                      "I am glad I helped you",
+                      "welcome, anything else i can assist you with?"
+              ],
+              "context_set": ""
+      },
+      {
+        "tag": "task",
+        "patterns": [
+          "What can you do?",
+          "List your abilities.",
+          "Tell me your features.",
+          "How can you help me?",
+          "Why use your service?",
+          "What's your purpose?",
+          "What functions are within your capability?",
+          "What kind of tasks can you perform?",
+          "List the things you are capable of doing.",
+          "In what ways can you assist me?",
+          "How can you help me with my tasks?",
+          "What are the features you offer?",
+          "What specific things can you do for me?",
+          "How do you provide assistance to users?",
+          "Can you outline the tasks within your capabilities?",
+          "What sets you apart from other services?",
+          "Enumerate the things you can do for users.",
+          "How are you designed to be helpful?",
+          "In what ways can you be of assistance?",
+          "Why should I consider using your services?",
+          "What advantages do you offer me as a user?",
+          "What are your unique capabilities?",
+          "How do you enhance user experience?",
+          "Why should I choose to use your system?",
+          "What specific tasks do you excel at?",
+          "How can your features benefit me?"
+        ],
+              "responses": [
+                      "I can answer to low-intermediate questions regarding college",
+                      "You can ask me questions regarding college, and i will try to answer them",
+                      "I'm programmed to answer basic queries regarding college"
+              ],
+              "context_set": ""
+      },
+      {
+              "tag":"ragging",
+              "patterns":[
+                      "ragging",
+                      "is ragging practice active in college",
+                      "does college have any antiragging facility",
+                      "is there any ragging cases",
+                      "is ragging done here",
+                      "ragging juniors",
+                      "ragging history",
+                      "ragging incidents"
+                      
+              ],
+              "responses": [
+                      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+              ]
+  
+      },
+      {
+              "tag":"hod",
+              "patterns":[
+                      "hod",
+                      "hod name",
+                      "who is the hod"
+              ],
+              "responses":[
+                      "HODs differ for each branch, please be more specific like: (HOD CSE)"
+              ]
+      },
+      
+     
+  
+      {
+          "tag":"facts",
+          "patterns": [
+              "Tell me facts about the college",
+              "tell me any unknown fact",
+              "facts",
+              "bvrit facts"
+          ],
+          "responses":[
+              "MITS provides 100% placements",
+              "MITS  is one of the top college in Telangana",
+              "MITS stands for Muthoot Institute of Technology and Science "
+          ]
+      },
+      {
+        "tag": "scholarship",
+        "patterns": [
+          "what all are the scholarship in mits",
+          "scholarships in muthott institute of technology and science",
+          "scholarships for students",
+          "is there any scholarships available",
+          "How do I apply for scholarships, and what documents are required?",
+          "Can I qualify for scholarships, and how do I know if I meet the criteria?",
+          "When is the scholarship application deadline, and are there important dates to remember?",
+          "What types of scholarships are available, and how can I find ones that match my achievements?",
+          "Are there scholarships for my field of study, and where can I get information about them?",
+          "How is the scholarship selection process done, and what factors are considered?",
+          "Can I renew scholarships, and what's required to stay eligible beyond the first year?",
+          "Can I apply for multiple scholarships at the same time?",
+          "Are there scholarships for students with financial need, and how is it determined?",
+          "What resources does the university offer to help me find and apply for scholarships?",
+          "Do scholarships cover expenses beyond tuition, like housing and books?",
+          "Can international students apply for scholarships, and are there specific ones for them?",
+          "How can I write an effective scholarship essay, and what mistakes should I avoid?",
+          "Are there scholarships based on extracurricular activities and community involvement?",
+          "What do I do if I'm awarded a scholarship, and how are the funds given to me?",
+          "How can I find additional, less-known scholarship opportunities?",
+          "Are there scholarships for graduate students, or are they mainly for undergraduates?",
+          "What role do recommendation letters play in the scholarship application process?",
+          "How can I inquire about scholarships if I don't have much knowledge about them?"
+        ],
+        "responses": ["a"]
+      },
+      {
+        "tag": "application",
+        "patterns": [
+          "What papers do I need to send with my application?",
+          "Can you explain the steps to apply in simple terms?",
+          "Break down what I need for the application. Keep it simple.",
+          "How do I start applying, and what do I need to remember?",
+          "How can I check if my application is accepted? What's the process?",
+          "When should I start applying? Give me a heads-up.",
+          "Guide me on the steps for a successful application.",
+          "How can I make sure all my application documents are in?",
+          "What's the deal with application fees? How and when do I pay?",
+          "After applying, how can I be sure it went through? Is there a confirmation?"
+        ],
+        "responses": ["b"]
+      },
+      {
+        "tag": "requirements",
+        "patterns": [
+          "I'm curious about the minimum CGPA or test scores needed for admission. Can you provide some clarity on that?",
+          "Thinking of pursuing MCA. What specific admission requirements should I be aware of for that program?",
+          "Interested in computer science engineering. What are the must-haves in terms of requirements for joining that course?",
+          "For civil engineering, what specific requirements or qualifications are necessary for admission?",
+          "Considering mechanical engineering. Can you break down the admission requirements for that program?",
+          "Eyeing electrical engineering. What are the specific criteria or prerequisites needed to join?",
+          "Interested in computer science engineering, but are there unique admission requirements for this particular branch?",
+          "What prerequisites should I meet if I want to study civil engineering here?",
+          "For mechanical engineering, are there any specific qualifications or requirements I should be aware of for admission?",
+          "Looking into electrical engineering. What are the admission requirements I need to meet for this program?"
+        ],
+        "responses": []
+      },
+        {
+          "tag": "leave",
+          "patterns": [
+            "I need time off. How do I apply for leave, and what's the process?",
+            "How can I check if my leave request got approved? Any quick way to inquire?",
+            "If I take leave, does it mess up my grades or academic record?",
+            "I have an emergency and need leave. How do I apply quickly?",
+            "Can I find out the status of my leave request? How do I do that?",
+            "Does taking leave affect my grades or academic standing?",
+            "I want to apply for leave. What's the simple process?",
+            "Checking on my leave request. How do I inquire about it?",
+            "Taking leave soon. Does it impact my academic progress?",
+            "How do I apply for leave without messing up my grades?",
+            "I need to take leave. What's the quick way to apply?",
+            "Checking my leave status. How can I do that easily?",
+            "Applying for leave soon. Any impact on my academic record?",
+            "What happens to my grades if I take leave? Any info on that?",
+            "I'm new to leave applications. How do I apply, and does it affect my grades?",
+            "How do I check if my leave got approved, and does it affect my academic standing?",
+            "I'm planning to take leave. How do I apply without affecting my grades?",
+            "Inquiring about my leave status. What's the easiest way to do that?",
+            "If I take leave, does it mess with my academic profile?",
+            "I need to apply for leave. What's the process, and does it affect my grades?"
+          ],
+          "responses": []
+        },
+        {
+        "tag": "college_intake",
+    "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats",
+      "How many students can the college take in total?",
+      "How many seats are there for each branch in the college?",
+      "Tell me the number of seats for each branch.",
+      "What's the maximum number of students the college accepts?",
+      "How many students can the college enroll this year?",
+      "How many students per branch?",
+      "How many seats for mechanical engineering students?",
+      "How many seats for electrical engineering students?",
+      "How many seats for electronics and communication students?",
+      "How many seats for computer science students?",
+      "How many students for the MCA program?",
+      "How many seats for MTech courses?"
+    ],
+    "responses": []
+}
+ ]
+  }
+  
